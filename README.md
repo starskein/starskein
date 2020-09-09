@@ -4,6 +4,8 @@
 + 휴학중
 - 웹 공부중 [starskein/webpractice](https://github.com/starskein/webpractice)
 
+![status](https://github-readme-stats.vercel.app/api?username=starskein&show_icons=true&hide_border=true&include_all_commits=true)
+
 <!--
 **starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,4 +20,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![status](https://github-readme-stats.vercel.app/api?username=starskein&show_icons=true&hide_border=true&include_all_commits=true)
+
