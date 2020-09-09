@@ -2,7 +2,7 @@
 안녕하세요 한양대학교 컴퓨터소프트웨어학부에 재학중인 소한민입니다.
 ## Recent condition
 + 휴학중
-- 웹 공부중
+- 웹 공부중 [starskein/webpractice](https://github.com/starskein/webpractice)
 
 <!--
 **starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
