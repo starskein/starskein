@@ -1,8 +1,8 @@
 ## So Hanmin
 안녕하세요 한양대학교 컴퓨터소프트웨어학부에 재학중인 소한민입니다.
 ## Recent condition
-*휴학중
-*웹 공부중
++ 휴학중
+- 웹 공부중
 
 <!--
 **starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
