@@ -1,4 +1,7 @@
 ### Hi there 👋
+한양대학교 컴퓨터소프트웨어학부에 재학중인 
+
+
 
 <!--
 **starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
