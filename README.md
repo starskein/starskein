@@ -1,4 +1,5 @@
-### So Hanmin
+# So Hanmin
+## Introduce
 안녕하세요 한양대학교 컴퓨터소프트웨어학부에 재학중인 소한민입니다.
 
 
