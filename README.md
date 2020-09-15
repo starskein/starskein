@@ -1,6 +1,6 @@
-## 소한민 So Hanmin
+## So Hanmin
 한양대학교 컴퓨터소프트웨어학부에 재학중인 소한민입니다.
-## 근황 Recent condition
+## Recent condition
 + 휴학중
 - 웹 공부중 [https://github.com/starskein/webpractice](https://github.com/starskein/webpractice)
 * 1일 1commit 도전중
