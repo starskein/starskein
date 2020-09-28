@@ -3,7 +3,7 @@
 ## Recent condition
 + 휴학중
 - 웹 공부중 [https://github.com/starskein/webpractice](https://github.com/starskein/webpractice)
-* 1일 1commit 도전중
+
 
 ![status](https://github-readme-stats.vercel.app/api?username=starskein&show_icons=true&hide_border=true&include_all_commits=true)
 
