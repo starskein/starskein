@@ -1,7 +1,7 @@
 ## So Hanmin
 한양대학교 컴퓨터소프트웨어학부에 재학중인 소한민입니다.
 ## Recent condition
-+ 휴학중
++ 군대
 - 웹 공부중 [https://github.com/starskein/webpractice](https://github.com/starskein/webpractice)
 
 
