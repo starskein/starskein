@@ -1,10 +1,10 @@
 ## So Hanmin
-한양대학교 컴퓨터소프트웨어학부에 재학중인 소한민입니다.
+
 ## Recent condition
 
 
 
-![status](https://github-readme-stats.vercel.app/api?username=starskein&show_icons=true&hide_border=true&include_all_commits=true)
+[![Solved.ac 프로필](https://mazassumnida.vercel.app/api/v2/generate_badge?boj=world2013)](https://solved.ac/world2013)
 
 <!--
 **starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
