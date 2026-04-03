@@ -1,10 +1,7 @@
 ## So Hanmin
 
-## Recent condition
-
-
-
-[![Solved.ac 프로필](https://mazassumnida.vercel.app/api/v2/generate_badge?boj=world2013)](https://solved.ac/world2013)
+## Algorithm
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=world2013)](https://solved.ac/world2013)
 
 <!--
 **starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
