@@ -1,53 +1,61 @@
-# 3D-Mesh-Compression-Optimizer
+# 소한민 (Hanmin So) | Backend & AI Developer
 
-## 📌 Project Overview
+## 🔗 Contact & Channels
+* **Email:** world2013@naver.com
+* **GitHub:** [https://github.com/starskein](https://github.com/starskein)
 
-**다이나믹 메시 압축 소프트웨어 복잡도 분석 및 최적화**
+---
 
-본 프로젝트는 차세대 3D 콘텐츠 압축 표준인 **MPEG V-DMC(Video-based Dynamic Mesh Compression)** 소프트웨어의 복잡도를 분석하고, 부호화(Encoding) 속도를 최적화하기 위한 연구 과제입니다.
+## 🎯 Portfolio Objective
+> **"데이터와 아키텍처의 병목을 찾아내고 최적의 솔루션을 설계합니다."**
+> 백엔드 시스템의 안정성과 AI 모델의 효율성을 동시에 고민하는 개발자 소한민입니다. C++ 기반의 로우레벨 성능 최적화 경험부터 LangGraph를 활용한 최신 AI Agent 설계까지, 기술의 경계를 넘나들며 실질적인 성능 향상을 이끌어내는 데 강점이 있습니다.
 
-- **개발 기간**: 2024.02.15 – 2024.10.29 (약 9개월)
-- **핵심 목표**: 프로파일링을 통한 병목 지점 파악 및 병렬 처리를 통한 부호화 속도 향상
+## 💡 Introduction
+* **수치 기반의 성능 개선을 지향합니다.**
+  * 졸업프로젝트에서 MPEG V-DMC 소프트웨어의 복잡도를 분석하여 부호화 속도를 11.4% 개선했으며, 이 과정에서 발생한 메모리 예외와 동기화 문제를 논리적으로 해결했습니다.
+* **복잡한 워크플로우를 체계화합니다.**
+  * 다중 모달 데이터가 혼재된 AI 교육 콘텐츠 생성 과정을 LangGraph 상태 그래프로 구조화하여 유지보수성과 확장성이 높은 시스템을 구축했습니다.
+* **검증된 AI 역량을 보유하고 있습니다.**
+  * AI 실무 활용 능력을 인증하는 **AICE Associate** 자격 취득을 통해, 데이터 해석부터 모델링 및 최적화까지의 전 과정을 능숙하게 수행할 수 있음을 증명했습니다.
 
-## 🛠 Tech Stack
+## 🛠 Skills & Tools
+* **Languages:** Python, C++
+* **AI & Data:** Keras, Scikit-learn, LangChain, LangGraph, Pandas
+* **DevOps & Tools:** Git, OpenMP, Valgrind, Intel Advisor, Gradio, SQL
 
-- **Language**: C++17
-- **Parallel Computing**: OpenMP, std::async
-- **Tools**: G++, CMake, Valgrind, WSL2 (Ubuntu)
+---
 
-## 🚀 Key Features & Improvements
+## 💻 Projects
 
-### 1. 복잡도 분석 (Profiling)
+### 1. 다이나믹 메시 압축 소프트웨어 복잡도 분석 및 최적화 (졸업 프로젝트)
+* **🔗 GitHub:** [3D-Mesh-Compression-Optimizer](https://github.com/starskein/3D-Mesh-Compression-Optimizer/tree/main)
+* **기간:** 2024.02.15 – 2024.10.29 (9개월)
+* **목표:** MPEG V-DMC 표준 소프트웨어의 복잡도 분석 및 최적화를 통한 부호화 속도 향상
+* **사용 기술:** C++, OpenMP, Intel Advisor, Valgrind, Multithreading
+* **핵심 성과:**
+  * Intel Advisor 프로파일링을 통한 병목 구간 특정 및 OpenMP 병렬 처리 적용
+  * 병렬화 과정의 `std::bad_alloc` 메모리 예외 및 Race Condition 해결 (`std::mutex` 및 `std::lock_guard` 활용)
+  * **[성능 최적화]** 최종적으로 **압축 속도 약 11.4% 개선** 달성
 
-- V-DMC 오픈 소스 코드 분석을 통해 주요 연산 단계별 실행 시간 및 메모리 사용량 측정.
-- Val그라인드(Valgrind) 및 gprof 도구를 활용하여 부호화 과정 중 가장 많은 연산 시간이 소요되는 **병목 구간(Bottleneck)** 식별.
+### 2. LangGraph 기반 AI 교육 콘텐츠 자동 생성기
+* **🔗 GitHub:** [LangGraph-AI-Edu-Generator](https://github.com/starskein/LangGraph-AI-Edu-Generator)
+* **목표:** PPT 기반 맞춤형 강의 영상 및 요약본 자동 생성 파이프라인 구축
+* **사용 기술:** Python, LangGraph, OpenAI API, SerpAPI, Gradio
+* **핵심 성과:**
+  * LangGraph 상태 그래프 기반의 '스크립트 생성 - RAG - 음성 합성' 워크플로우 설계
+  * SerpAPI 연동을 통한 최신 지식 보완 및 Gradio 기반 웹 대시보드 구축
 
-### 2. 병렬화 및 최적화 (Optimization)
+### 3. 항공사 고객 만족도 예측 (Airline Satisfaction Prediction)
+* **🔗 GitHub:** [airline-satisfaction-prediction](https://github.com/starskein/airline-satisfaction-prediction)
+* **목표:** 항공 고객 데이터를 분석하여 만족도 예측 모델 구축 및 운영 전략 수립
+* **사용 기술:** Python, Pandas, Keras, Scikit-learn
+* **핵심 성과:**
+  * 재사용 가능한 엔드투엔드 전처리 모듈 개발 및 **정확도 0.93** 달성
+  * 모델 재학습 전략별 성능 비교를 통해 최적의 유지보수 가이드라인 도출
 
-- **병렬 처리 구현**: `VMCEncoder::compressVideoAtt` 함수의 반복문에 병렬화를 적용하여 연산 효율 증대.
-- **예외 처리 및 동기화**: 공유 자원 접근 시 발생하는 `std::bad_alloc` 문제를 분석하고, `std::mutex`와 `std::lock_guard`를 활용한 임계 구역 설정을 통해 프로그램 안정성 확보.
-- **메모리 최적화**: 중복 할당 방지 및 캐싱 기법을 통한 데이터 처리 속도 개선.
+---
 
-## 📊 Performance Results
-
-| **Metric** | **Result** |
-| --- | --- |
-| **Encoding Speed** | **약 11% 향상** (기존 대비 속도 개선) |
-| **Compression Quality** | 품질 하락 최소화 및 동기화 문제 해결 시도 |
-
-> **Note**: 병렬 처리 시 발생할 수 있는 품질 저하 문제는 공유 자원 제어를 통해 일부 해결하였으며, 완전한 품질 복구는 향후 과제로 남겨두었습니다.
-> 
-
-## 📁 Repository Structure
-
-```
-├── encoder.cpp               # 최적화 및 병렬 처리가 적용된 핵심 소스 코드
-├── 졸업프로젝트 결과보고서.docx   # 프로젝트 상세 분석 및 결과 보고서
-├── 실행 설명서.pdf             # 환경 설정 및 빌드/실행 가이드
-└── README.md                 # 프로젝트 개요 및 성과 요약
-```
-
-## 👥 Contributors
-
-- **소한민**: 소프트웨어 구조 분석, 병목 지점 프로파일링 및 병렬화 알고리즘 최적화 개발
-- **김범준**: 소프트웨어 구조 분석 및 최적화 방법론 구현
+## 🎓 Education & Credentials
+* **KT 에이블스쿨 (KT AIVLE School) 9기** | AI/개발자 트랙 수료 예정
+* **한양대학교 컴퓨터소프트웨어학 전공**
+* **AICE Associate (AI Certificate for Everyone)** | 한국지능정보사회진흥원/KT 주관 취득
