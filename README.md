@@ -1,62 +1,67 @@
-# 소한민 (Hanmin So) | Backend & AI Developer
+# 👋 Hi there, I'm Hanmin So (소한민)
 
-## 🔗 Contact & Channels
-* **Email:** world2013@naver.com
-* **GitHub:** [https://github.com/starskein](https://github.com/starskein)
+**Backend & AI Developer**
 
----
+> *"데이터와 시스템의 병목을 찾아내고, 비즈니스 가치를 창출하는 최적의 아키텍처를 설계합니다."*
 
-## 🎯 Software enginner(Back-end)
-* **데이터와 아키텍처의 병목을 찾아내고 최적의 솔루션을 설계합니다.**
-* 백엔드 시스템의 안정성과 AI 모델의 효율성을 동시에 고민하는 개발자 소한민입니다.
-* C++ 기반의 로우레벨 성능 최적화 경험부터 LangGraph를 활용한 최신 AI Agent 설계까지, 기술의 경계를 넘나들며 실질적인 성능 향상을 이끌어내는 데 강점이 있습니다.
-
-## 💡 Introduction
-* **수치 기반의 성능 개선을 지향합니다.**
-  * 졸업프로젝트에서 MPEG V-DMC 소프트웨어의 복잡도를 분석하여 부호화 속도를 11.4% 개선했으며, 이 과정에서 발생한 메모리 예외와 동기화 문제를 논리적으로 해결했습니다.
-* **복잡한 워크플로우를 체계화합니다.**
-  * 다중 모달 데이터가 혼재된 AI 교육 콘텐츠 생성 과정을 LangGraph 상태 그래프로 구조화하여 유지보수성과 확장성이 높은 시스템을 구축했습니다.
-* **검증된 AI 역량을 보유하고 있습니다.**
-  * AI 실무 활용 능력을 인증하는 **AICE Associate** 자격 취득을 통해, 데이터 해석부터 모델링 및 최적화까지의 전 과정을 능숙하게 수행할 수 있음을 증명했습니다.
-
-## 🛠 Skills & Tools
-* **Languages:** Python, C++
-* **AI & Data:** Keras, Scikit-learn, LangChain, LangGraph, Pandas
-* **DevOps & Tools:** Git, OpenMP, Valgrind, Intel Advisor, Gradio, SQL
+대용량 트래픽과 복잡한 비즈니스 로직을 안정적으로 처리하는 백엔드 시스템과, AI 모델의 효율성을 동시에 고민합니다. C++ 기반의 로우레벨 메모리 제어부터 LangGraph를 활용한 AI Agent 파이프라인 설계까지 실질적인 시스템 성능 향상을 이끌어내는 데 강점이 있습니다. 특히 금융 데이터를 비롯한 기업형(B2B) AI 솔루션 환경에서 데이터 해석부터 최적화까지 이어지는 엔드투엔드(End-to-End) 아키텍처를 구축하는 데 관심이 많습니다.
 
 ---
 
-## 💻 Projects
-
-### 1. 다이나믹 메시 압축 소프트웨어 복잡도 분석 및 최적화 (졸업 프로젝트)
-* **🔗 GitHub:** [3D-Mesh-Compression-Optimizer](https://github.com/starskein/3D-Mesh-Compression-Optimizer/tree/main)
-* **기간:** 2024.02.15 – 2024.10.29 (9개월)
-* **목표:** MPEG V-DMC 표준 소프트웨어의 복잡도 분석 및 최적화를 통한 부호화 속도 향상
-* **사용 기술:** C++, OpenMP, Intel Advisor, Valgrind, Multithreading
-* **핵심 성과:**
-  * Intel Advisor 프로파일링을 통한 병목 구간 특정 및 OpenMP 병렬 처리 적용
-  * 병렬화 과정의 `std::bad_alloc` 메모리 예외 및 Race Condition 해결 (`std::mutex` 및 `std::lock_guard` 활용)
-  * **[성능 최적화]** 최종적으로 **압축 속도 약 11.4% 개선** 달성
-
-### 2. LangGraph 기반 AI 교육 콘텐츠 자동 생성기
-* **🔗 GitHub:** [LangGraph-AI-Edu-Generator](https://github.com/starskein/LangGraph-AI-Edu-Generator)
-* **목표:** PPT 기반 맞춤형 강의 영상 및 요약본 자동 생성 파이프라인 구축
-* **사용 기술:** Python, LangGraph, OpenAI API, SerpAPI, Gradio
-* **핵심 성과:**
-  * LangGraph 상태 그래프 기반의 '스크립트 생성 - RAG - 음성 합성' 워크플로우 설계
-  * SerpAPI 연동을 통한 최신 지식 보완 및 Gradio 기반 웹 대시보드 구축
-
-### 3. 항공사 고객 만족도 예측 (Airline Satisfaction Prediction)
-* **🔗 GitHub:** [airline-satisfaction-prediction](https://github.com/starskein/airline-satisfaction-prediction)
-* **목표:** 항공 고객 데이터를 분석하여 만족도 예측 모델 구축 및 운영 전략 수립
-* **사용 기술:** Python, Pandas, Keras, Scikit-learn
-* **핵심 성과:**
-  * 재사용 가능한 엔드투엔드 전처리 모듈 개발 및 **정확도 0.93** 달성
-  * 모델 재학습 전략별 성능 비교를 통해 최적의 유지보수 가이드라인 도출
+### 🛠️ Skills & Tools
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=LangChain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=Pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+</p>
 
 ---
 
-## 🎓 Education & Credentials
-* **KT 에이블스쿨 (KT AIVLE School) 9기** | AI/개발자 트랙 수료 예정
-* **한양대학교 컴퓨터소프트웨어학 전공**
-* **AICE Associate (AI Certificate for Everyone)** | 한국지능정보사회진흥원/KT 주관 취득
+### 💻 Projects
+
+#### 1. 다이나믹 메시 압축 소프트웨어 복잡도 분석 및 성능 최적화
+* **기간:** 2024.02 – 2024.10
+* **GitHub:** [3D-Mesh-Compression-Optimizer](https://github.com/starskein/3D-Mesh-Compression-Optimizer/tree/main)
+* **Tech Stack:** `C++`, `OpenMP`, `Intel Advisor`, `Valgrind`
+* **구체적인 활동 및 성과:**
+  * Intel Advisor 프로파일링으로 병목 특정 후 OpenMP 병렬 처리 적용
+  * 병렬화 중 발생한 `std::bad_alloc` 예외 및 Race Condition 해결 (`std::mutex` 활용)
+  * **[성과]** 최종 압축 속도 **11.4% 개선** 달성
+* **💡 직무 연관성:** 한정된 리소스 환경에서의 로우레벨 성능 튜닝 및 서버 안정성 확보 역량 (백엔드 시스템 병목 분석)
+
+#### 2. LangGraph 기반 AI 교육 콘텐츠 자동 생성 파이프라인 구축
+* **GitHub:** [LangGraph-AI-Edu-Generator](https://github.com/starskein/LangGraph-AI-Edu-Generator)
+* **Tech Stack:** `Python`, `LangGraph`, `OpenAI API`, `SerpAPI`, `Gradio`
+* **구체적인 활동 및 성과:**
+  * '스크립트 생성 - RAG - 음성 합성(TTS)'으로 이어지는 상태 그래프(State Graph) 워크플로우 구축
+  * SerpAPI 연동으로 최신 지식을 보완하는 구조 설계 및 Gradio 기반 웹 대시보드 구축
+* **💡 직무 연관성:** 복잡한 비즈니스 요구사항을 AI 에이전트 아키텍처로 모듈화하여 자동화하는 설계 능력
+
+#### 3. 데이터 기반 항공사 고객 만족도 예측 모델링
+* **GitHub:** [airline-satisfaction-prediction](https://github.com/starskein/airline-satisfaction-prediction)
+* **Tech Stack:** `Python`, `Pandas`, `Keras`, `Scikit-learn`
+* **구체적인 활동 및 성과:**
+  * 결측치 처리 및 피처 엔지니어링을 포함한 재사용 가능한 엔드투엔드(End-to-End) 전처리 파이프라인 구축
+  * 머신러닝/딥러닝 모델 학습 및 튜닝을 통해 **예측 정확도 93%(0.93)** 달성
+* **💡 직무 연관성:** 비즈니스 도메인 데이터 분석을 통한 인사이트 도출 및 안정적인 AI 모델 운영 가이드라인 수립
+
+---
+
+### 🎓 Education & Credentials
+- **KT 에이블스쿨 (KT AIVLE School) 9기** | AI/개발자 트랙 수료 예정
+- **한양대학교 컴퓨터소프트웨어학 전공** (졸업)
+- **AICE Associate (AI Certificate for Everyone)** | 한국지능정보사회진흥원/KT 주관
+
+---
+
+### 📫 Contact & Channels
+- **Email:** world2013@naver.com
+- **GitHub:** [@starskein](https://github.com/starskein)
+
+<!--
+**starskein/starskein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
