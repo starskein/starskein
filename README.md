@@ -26,9 +26,9 @@
 #### 1. 다이나믹 메시 압축 소프트웨어 복잡도 분석 및 성능 최적화
 * **기간:** 2024.02 – 2024.10
 * **GitHub:** [3D-Mesh-Compression-Optimizer](https://github.com/starskein/3D-Mesh-Compression-Optimizer/tree/main)
-* **Tech Stack:** `C++`, `OpenMP`, `Intel Advisor`, `Valgrind`
+* **Tech Stack:** `C++`, `OpenMP`, `Valgrind`
 * **구체적인 활동 및 성과:**
-  * Intel Advisor 프로파일링으로 병목 특정 후 OpenMP 병렬 처리 적용
+  * Valgrind 프로파일링으로 병목 특정 후 OpenMP 병렬 처리 적용
   * 병렬화 중 발생한 `std::bad_alloc` 예외 및 Race Condition 해결 (`std::mutex` 활용)
   * **[성과]** 최종 압축 속도 **11.4% 개선** 달성
 * **💡 직무 연관성:** 한정된 리소스 환경에서의 로우레벨 성능 튜닝 및 서버 안정성 확보 역량 (백엔드 시스템 병목 분석)
