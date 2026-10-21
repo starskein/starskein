@@ -10,7 +10,7 @@
 - **Language / Tool:** `Python`, `C++17`, `Java`, `Intel Advisor`
 
 ### 💻 Core Projects
-- **Nexus AI Smart WMS (Private)** : PWA와 백엔드 간 실시간 비동기 연동 파이프라인(Celery/SSE) 구축 및 API 규약 표준화. (보안 및 규정상 소스코드 비공개, 포트폴리오 참조)
+- **Nexus AI Smart WMS (Private)** : PWA와 백엔드 간 실시간 비동기 연동 파이프라인(Celery/SSE) 구축 및 API 규약 표준화. (포트폴리오 참조)
 - **[3D-Mesh-Compression-Optimizer](https://github.com/starskein/3D-Mesh-Compression-Optimizer/tree/main)** : C++ 기반 3D 동적 메시 데이터 압축 복잡도 분석. `std::mutex`를 활용한 힙 메모리 크래시(bad_alloc) 해결 및 동시성 제어.
 - **[LangGraph-AI-Edu-Generator](https://github.com/starskein/LangGraph-AI-Edu-Generator)** : 외부 API(OpenAI, SerpAPI) 연동 및 상태 그래프(State Graph) 기반 자동화 파이프라인 구축.
 
